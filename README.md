@@ -22,7 +22,7 @@ Decentralized websites using Bitcoin crypto and the BitTorrent network - http://
  * Password-less [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
    based authorization: Your account is protected by same cryptography as your Bitcoin wallet
  * Built-in SQL server with P2P data synchronization: Allows easier site development and faster page load times
- * Anonymity: Full Tor network support with .onion hidden services instead of ipv4 addresses
+ * Anonymity: Full Tor network support with .onion hidden services instead of IPv4 addresses
  * TLS encrypted connections
  * Automatic, uPnP port opening
  * Plugin for multiuser (openproxy) support
@@ -90,7 +90,7 @@ It downloads the latest version of ZeroNet then starts it automatically.
 * Start with `python zeronet.py`
 * Open http://127.0.0.1:43110/ in your browser and enjoy! :)
 
-#### Other Linux or without root access
+#### Other Linux distribution or without root access
 * Check your python version using `python --version` if the returned version is not `Python 2.7.X` then try `python2` or `python2.7` command and use it from now
 * `wget https://bootstrap.pypa.io/get-pip.py`
 * `python get-pip.py --user gevent msgpack-python`
